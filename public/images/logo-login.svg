@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 110">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#1455D9"/></linearGradient>
+    <linearGradient id="chk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFC233"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  </defs>
+  <!-- garis kecepatan -->
+  <g stroke="#4FC3F7" stroke-width="4" stroke-linecap="round">
+    <path d="M108 26h28M112 38h32M108 50h24M112 62h20"/>
+  </g>
+  <!-- dokumen belakang -->
+  <rect x="4" y="16" width="86" height="88" rx="10" fill="url(#back)"/>
+  <!-- dokumen depan -->
+  <path d="M20 4h52l20 20v62a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V12a8 8 0 0 1 8-8z" fill="#fff" stroke="#CFE0F7" stroke-width="2"/>
+  <path d="M72 4v14a6 6 0 0 0 6 6h14z" fill="#D6E6FB"/>
+  <g fill="#7DB8F5"><rect x="24" y="16" width="34" height="5" rx="2.5"/><rect x="24" y="28" width="44" height="5" rx="2.5"/><rect x="24" y="40" width="28" height="5" rx="2.5"/></g>
+  <text x="22" y="76" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="28" font-weight="800" fill="#1455D9">Rp</text>
+  <!-- centang -->
+  <circle cx="92" cy="80" r="20" fill="url(#chk)" stroke="#fff" stroke-width="3"/>
+  <path d="m82 80 7 7 13-14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
